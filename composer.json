@@ -40,7 +40,6 @@
     },
     "autoload": {
         "psr-4": {
-            "Kainotomo\\PHMoney\\": "app/Providers/phmoney_provider/src/",
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
