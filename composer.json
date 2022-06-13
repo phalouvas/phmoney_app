@@ -40,6 +40,7 @@
     },
     "autoload": {
         "psr-4": {
+            "Kainotomo\\PHMoney\\": "app/Providers/phmoney_provider/src/",
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
@@ -57,9 +58,11 @@
         ],
         "post-install-cmd": [
             "@php artisan phmoney_app:install",
+            "@php artisan phmoney_app:update",
             "@php artisan migrate"
         ],
         "post-update-cmd": [
+            "@php artisan phmoney_app:update",
             "@php artisan vendor:publish --tag=laravel-assets --ansi --force"
         ],
         "post-root-package-install": [
