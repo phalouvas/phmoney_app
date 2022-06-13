@@ -58,8 +58,7 @@
         ],
         "post-install-cmd": [
             "@php artisan phmoney_app:install",
-            "@php artisan phmoney_app:update",
-            "@php artisan migrate"
+            "@php artisan phmoney_app:update"
         ],
         "post-update-cmd": [
             "@php artisan phmoney_app:update",
