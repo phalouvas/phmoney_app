@@ -12,7 +12,7 @@ class UpdateCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'phmoney_app:install';
+    protected $signature = 'phmoney_app:update';
 
     /**
      * The console command description.
