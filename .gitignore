@@ -13,3 +13,4 @@ yarn-error.log
 /.idea
 /.vscode
 /app/Providers/phmoney_provider
+/app/Providers/phmoney_assets
