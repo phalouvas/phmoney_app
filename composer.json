@@ -27,6 +27,7 @@
         "laravel/jetstream": "^2.8",
         "laravel/sanctum": "^2.14.1",
         "laravel/tinker": "^2.7",
+        "league/csv": "^9.0",
         "livewire/livewire": "^2.5"
     },
     "require-dev": {
@@ -40,6 +41,7 @@
     },
     "autoload": {
         "psr-4": {
+            "Kainotomo\\PHMoney\\": "app/Providers/phmoney_provider/src/",
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
