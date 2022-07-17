@@ -15,3 +15,4 @@ yarn-error.log
 /app/Providers/phmoney_provider
 dump.rdb
 supervisord.pid
+/public/js/phmoney_assets
