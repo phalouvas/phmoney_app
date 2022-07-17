@@ -201,7 +201,6 @@ return [
          * Custom Service Providers
          */
         App\Providers\CsvExportProvider::class,
-        Kainotomo\PHMoney\PHMoneyServiceProvider::class,
 
     ],
 
