@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a596d0a0d20031a0bd929b51fe6d3fd",
+    "content-hash": "2479782c7a052a78cb4a3d6147d71607",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1128,6 +1128,62 @@
                 }
             ],
             "time": "2020-06-13T08:05:20+00:00"
+        },
+        {
+            "name": "kainotomo/phmoney_provider",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kainotomo/phmoney_provider.git",
+                "reference": "f3bbd76d8ee03de4eed9715281ee48cdec122e3a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kainotomo/phmoney_provider/zipball/f3bbd76d8ee03de4eed9715281ee48cdec122e3a",
+                "reference": "f3bbd76d8ee03de4eed9715281ee48cdec122e3a",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/jetstream": "^2.8",
+                "league/csv": "^9.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Kainotomo\\PHMoney\\PHMoneyServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kainotomo\\PHMoney\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "KAINOTOMO PH LTD",
+                    "email": "info@kainotomo.com"
+                }
+            ],
+            "description": "PHMoney Double-Entry Accounting Program laravel provider.",
+            "keywords": [
+                "Accounting",
+                "invoice",
+                "laravel",
+                "online",
+                "software"
+            ],
+            "support": {
+                "issues": "https://github.com/kainotomo/phmoney/issues",
+                "source": "https://github.com/kainotomo/phmoney"
+            },
+            "time": "2022-07-17T03:10:45+00:00"
         },
         {
             "name": "laravel/fortify",
@@ -8581,12 +8637,14 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "kainotomo/phmoney_provider": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": "^8.0.2"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
