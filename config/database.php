@@ -35,23 +35,7 @@ return [
 
     'connections' => [
 
-        'phmoney_acs' => [
-            'driver' => 'mysql',
-            'url' => null,
-            'host' => 'mariadb',
-            'port' => '3306',
-            'database' => 'phmoney_dev',
-            'username' => 'root',
-            'password' => 'root',
-            'unix_socket' => '',
-            'charset' => 'utf8mb4',
-            'collation' => 'utf8mb4_unicode_ci',
-            'prefix' => 'phmacs_',
-            'prefix_indexes' => 1,
-            'strict' => 0,
-            'engine' => null,
-            'options' => [],
-        ],
+        'phmoney_acs' => [],
 
         'sqlite' => [
             'driver' => 'sqlite',
