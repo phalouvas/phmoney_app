@@ -28,7 +28,7 @@ class InstallCommand extends Command
      */
     public function handle()
     {
-        $this->setConfigDatabase();
+        //$this->setConfigDatabase();
         $this->line('');
         $this->info('PHMoney installed successfully.');
     }

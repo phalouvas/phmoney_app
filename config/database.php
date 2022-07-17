@@ -35,8 +35,6 @@ return [
 
     'connections' => [
 
-        'phmoney_acs' => [],
-
         'sqlite' => [
             'driver' => 'sqlite',
             'url' => env('DATABASE_URL_PORTFOLIO'),
@@ -47,16 +45,16 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'url' => env('DATABASE_URL_ACS'),
-            'host' => env('DB_HOST_ACS', '127.0.0.1'),
-            'port' => env('DB_PORT_ACS', '3306'),
-            'database' => env('DB_DATABASE_ACS', 'forge'),
-            'username' => env('DB_USERNAME_ACS', 'forge'),
-            'password' => env('DB_PASSWORD_ACS', ''),
+            'url' => env('DATABASE_URL'),
+            'host' => env('DB_HOST', '127.0.0.1'),
+            'port' => env('DB_PORT', '3306'),
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),
             'unix_socket' => env('DB_SOCKET_ACS', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
-            'prefix' => env('DB_PREFIX_ACS',''),
+            'prefix' => env('DB_PREFIX',''),
             'prefix_indexes' => true,
             'strict' => true,
             'engine' => null,
