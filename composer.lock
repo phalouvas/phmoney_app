@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2479782c7a052a78cb4a3d6147d71607",
+    "content-hash": "af7836a96822c7d0033e9ff2ea5fb5b1",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1135,12 +1135,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kainotomo/phmoney_provider.git",
-                "reference": "03af9d2212351aa64964698c514b4d17ba36e238"
+                "reference": "561c9986186cdf723fb3b57b54081ecbd54d1c47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kainotomo/phmoney_provider/zipball/03af9d2212351aa64964698c514b4d17ba36e238",
-                "reference": "03af9d2212351aa64964698c514b4d17ba36e238",
+                "url": "https://api.github.com/repos/kainotomo/phmoney_provider/zipball/561c9986186cdf723fb3b57b54081ecbd54d1c47",
+                "reference": "561c9986186cdf723fb3b57b54081ecbd54d1c47",
                 "shasum": ""
             },
             "require": {
@@ -1183,7 +1183,7 @@
                 "issues": "https://github.com/kainotomo/phmoney/issues",
                 "source": "https://github.com/kainotomo/phmoney"
             },
-            "time": "2022-07-17T15:33:43+00:00"
+            "time": "2022-07-18T08:03:06+00:00"
         },
         {
             "name": "laravel/fortify",
@@ -1690,16 +1690,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.3.3",
+            "version": "2.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "0da1dca5781dd3cfddbe328224d9a7a62571addc"
+                "reference": "155ec1c95626b16fda0889cf15904d24890a60d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/0da1dca5781dd3cfddbe328224d9a7a62571addc",
-                "reference": "0da1dca5781dd3cfddbe328224d9a7a62571addc",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/155ec1c95626b16fda0889cf15904d24890a60d5",
+                "reference": "155ec1c95626b16fda0889cf15904d24890a60d5",
                 "shasum": ""
             },
             "require": {
@@ -1792,7 +1792,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-07T21:28:26+00:00"
+            "time": "2022-07-17T16:25:47+00:00"
         },
         {
             "name": "league/config",
@@ -1962,16 +1962,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "34a68067b7ae3b836ea5e57e1fc432478372a4f5"
+                "reference": "1a941703dfb649f9b821e7bc425e782f576a805e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/34a68067b7ae3b836ea5e57e1fc432478372a4f5",
-                "reference": "34a68067b7ae3b836ea5e57e1fc432478372a4f5",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/1a941703dfb649f9b821e7bc425e782f576a805e",
+                "reference": "1a941703dfb649f9b821e7bc425e782f576a805e",
                 "shasum": ""
             },
             "require": {
@@ -2032,7 +2032,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.1.0"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.1.1"
             },
             "funding": [
                 {
@@ -2048,7 +2048,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-29T17:29:54+00:00"
+            "time": "2022-07-18T09:59:40+00:00"
         },
         {
             "name": "league/mime-type-detection",
@@ -8648,7 +8648,7 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "stability-flags": {
         "kainotomo/phmoney_provider": 20
     },
