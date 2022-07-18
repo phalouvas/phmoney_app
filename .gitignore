@@ -16,3 +16,4 @@ yarn-error.log
 dump.rdb
 supervisord.pid
 /public/js/phmoney_assets
+.env.azure
