@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "af7836a96822c7d0033e9ff2ea5fb5b1",
+    "content-hash": "fb50bdf8bd25a9854a8c168fab867c02",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -1128,6 +1128,62 @@
                 }
             ],
             "time": "2020-06-13T08:05:20+00:00"
+        },
+        {
+            "name": "kainotomo/phmoney_cms",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kainotomo/phmoney_cms.git",
+                "reference": "8c9a2499f55f8858adb0416e1990bc4e4dfe8d08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kainotomo/phmoney_cms/zipball/8c9a2499f55f8858adb0416e1990bc4e4dfe8d08",
+                "reference": "8c9a2499f55f8858adb0416e1990bc4e4dfe8d08",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/jetstream": "^2.8",
+                "league/csv": "^9.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Kainotomo\\PHMoney\\PHMoneyServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Kainotomo\\PHMoney\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "KAINOTOMO PH LTD",
+                    "email": "info@kainotomo.com"
+                }
+            ],
+            "description": "PHMoney Double-Entry Accounting Program laravel cms.",
+            "keywords": [
+                "Accounting",
+                "invoice",
+                "laravel",
+                "online",
+                "software"
+            ],
+            "support": {
+                "issues": "https://github.com/kainotomo/phmoney/issues",
+                "source": "https://github.com/kainotomo/phmoney"
+            },
+            "time": "2022-07-20T08:46:51+00:00"
         },
         {
             "name": "kainotomo/phmoney_provider",
@@ -8737,6 +8793,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "kainotomo/phmoney_cms": 20,
         "kainotomo/phmoney_provider": 20
     },
     "prefer-stable": true,

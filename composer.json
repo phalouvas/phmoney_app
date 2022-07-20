@@ -23,6 +23,7 @@
     "require": {
         "php": "^8.0.2",
         "guzzlehttp/guzzle": "^7.2",
+        "kainotomo/phmoney_cms": "dev-main",
         "kainotomo/phmoney_provider": "dev-main",
         "laravel/framework": "^9.11",
         "laravel/jetstream": "^2.8",
