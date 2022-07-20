@@ -202,6 +202,7 @@ return [
          */
         App\Providers\CsvExportProvider::class,
         Kainotomo\PHMoney\PHMoneyServiceProvider::class,
+        Kainotomo\PHMoney\PHMoneyServiceCms::class,
 
     ],
 
