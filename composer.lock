@@ -1135,12 +1135,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kainotomo/phmoney_cms.git",
-                "reference": "f29a39d2aec476dbc68be33a0948ebc2e5002d7c"
+                "reference": "5734bb2f69cb45f75389c43a35bb1c5621ef816b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kainotomo/phmoney_cms/zipball/f29a39d2aec476dbc68be33a0948ebc2e5002d7c",
-                "reference": "f29a39d2aec476dbc68be33a0948ebc2e5002d7c",
+                "url": "https://api.github.com/repos/kainotomo/phmoney_cms/zipball/5734bb2f69cb45f75389c43a35bb1c5621ef816b",
+                "reference": "5734bb2f69cb45f75389c43a35bb1c5621ef816b",
                 "shasum": ""
             },
             "require": {
@@ -1152,7 +1152,7 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Kainotomo\\PHMoney\\PHMoneyServiceProvider"
+                        "Kainotomo\\PHMoney\\PHMoneyServiceCms"
                     ]
                 }
             },
@@ -1183,7 +1183,7 @@
                 "issues": "https://github.com/kainotomo/phmoney/issues",
                 "source": "https://github.com/kainotomo/phmoney"
             },
-            "time": "2022-07-20T12:39:20+00:00"
+            "time": "2022-07-21T03:31:20+00:00"
         },
         {
             "name": "kainotomo/phmoney_provider",
@@ -1191,12 +1191,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kainotomo/phmoney_provider.git",
-                "reference": "ebc131da579614b4351421f4535ab9f082232ee6"
+                "reference": "33310236668d8d19d3ce9dd9498faee38d5eb13c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kainotomo/phmoney_provider/zipball/ebc131da579614b4351421f4535ab9f082232ee6",
-                "reference": "ebc131da579614b4351421f4535ab9f082232ee6",
+                "url": "https://api.github.com/repos/kainotomo/phmoney_provider/zipball/33310236668d8d19d3ce9dd9498faee38d5eb13c",
+                "reference": "33310236668d8d19d3ce9dd9498faee38d5eb13c",
                 "shasum": ""
             },
             "require": {
@@ -1239,7 +1239,7 @@
                 "issues": "https://github.com/kainotomo/phmoney/issues",
                 "source": "https://github.com/kainotomo/phmoney"
             },
-            "time": "2022-07-19T02:46:55+00:00"
+            "time": "2022-07-21T07:54:54+00:00"
         },
         {
             "name": "laravel/fortify",
